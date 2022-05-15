@@ -1,5 +1,7 @@
 # Tutorium
 
+C-Tutorium zum Software Kurs LRT-Bachelor der Universität Stuttgart
+
 ## Outline
 
 1. Nützliche Resources
@@ -28,5 +30,31 @@ Einfach wenn man nich weiter kommt sone dumme Suche machen: Stackoverflow und Tu
 
 ![Google](pic/google_search.png)
 
-## 2. Main Funktion
+## 2. Main Funktion'
 
+Die Main Funktion ist die 1. Funktion die im Ganzen Programm ausgeführt wird. Aka. der "Entrypoint".
+
+Eine Return value von **0** signalisiert erfolgreiches Abschließen.
+
+Eine Return value von **1** signalisiert unerfolgreiches Abschließen.
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+// EXIT_SUCCESS = 0
+// EXIT_FAIL = 1
+
+int main() {
+
+    return 0;
+}
+```
+
+## 3. primitive Datentypen & arrays & strings
+
+## 4. printf, scanf
+
+## 5. funktionen
+
+## 6. control flow (if & switch)
