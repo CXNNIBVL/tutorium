@@ -7,15 +7,16 @@
 3. primitive Datentypen & arrays & strings
 4. printf, scanf
 5. funktionen
-6. Ops, BitOps, Modulo
-7. control flow (if & switch)
+6. control flow (if & switch)
+7. Ops, BitOps, Modulo
 8. loops (for & while)
 9. define & typedef
 10. structs
 11. pointer
 12. scope rules
 13. heap mem
-14. Praktomat aufgabe
+14. includes & library pattern
+15. Praktomat aufgabe
 
 ## 1. Nützliche Resources
 **Google ist dein Freund!**
