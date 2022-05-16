@@ -58,3 +58,5 @@ int main() {
 ## 5. funktionen
 
 ## 6. control flow (if & switch)
+
+## 7. Ops, BitOps, Modulo

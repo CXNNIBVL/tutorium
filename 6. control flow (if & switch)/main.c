@@ -1,12 +1,10 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "gnuplot.h"
 
-#define TITLE "teilaufgabe25"   
-#define FILENAME "teilaufgabe25"
 
 //  y value for x in range 0..=9
-double y_0_9(double x) {
+double y_0_9(double x) {   
     return 1 - (1 / exp(x));
 }
 
@@ -83,6 +81,7 @@ double y_28_29(double x) {
 */
 
 //  y value for x in range 0..=29
+// IF ERKLÄRUNG
 double y(double x) { // x = 22
 
     if(x >= 0 && x <= 9) {
@@ -107,16 +106,39 @@ double y(double x) { // x = 22
     return y_28_29(x);
 }
 
+// SWITCH ERKLÄRUNG
+void switch_erkl() {
+
+    int op = 5;
+
+    switch (op) {
+    case 1:
+        printf("%d", op);
+        break;
+    case 2:
+        printf("%d", op);
+        break;
+    case 3:
+        printf("%d", op);
+        break;
+    case 4:
+        printf("%d", op);
+        break;
+    default:
+        printf("Default case\n");
+        break;
+    };
+
+    printf("\n");    
+}
+
 int main() {
 
-    GnuPlotOpen(TITLE, FILENAME);
+    // for(double x = 0; x < 30; x += 1) {
+    //     double v = y(x);
+    // }
 
-    for(double x = 0; x < 30; x += 1) {
-        double v = y(x);
-        GnuPlotValue(x, v);
-        GnuPlotValue(x, -v);
-    }
+    switch_erkl();
 
-    GnuPlotClose();
     return 0;
 }

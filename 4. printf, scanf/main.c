@@ -6,6 +6,8 @@ int main() {
     int zahl;
 
     /*
+        Format String:
+
         %d für int
         %c für chars
         %f für floats
