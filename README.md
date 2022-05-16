@@ -66,3 +66,9 @@ int main() {
 ## 6. control flow (if & switch)
 
 ## 7. Ops, BitOps, Modulo
+
+## 8. loops (for & while)
+
+## 9. define & typedef
+
+## 10. structs

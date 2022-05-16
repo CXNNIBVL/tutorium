@@ -24,6 +24,10 @@ int main() {
     i += 2;     // Das hier ist
     i = i + 2;  // Das selbe wie hier
 
+    // ++ -- erhöht oder subtrahiert 1
+    int z = 5; 
+    z++; // z = 6, ist das selbe wie z += 1
+
     //MODULO    aka Rest Operator
     int x = 13 % 5; // x = 3
 
