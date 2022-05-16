@@ -2,6 +2,12 @@
 
 C-Tutorium zum Software Kurs LRT-Bachelor der Universität Stuttgart
 
+## Meine Praktomat Abgaben zum Selbsstudium
+[Abgabe 1](https://github.com/BA-UniStuttgart/WS21_22_Softwarewerkzeuge_Praktomat_Abgabe01)
+[Abgabe 2](https://github.com/BA-UniStuttgart/WS21_22_Softwarewerkzeuge_Praktomat_Abgabe02)
+[Abgabe 3](https://github.com/BA-UniStuttgart/WS21_22_Softwarewerkzeuge_Praktomat_Abgabe03)
+
+
 ## Outline
 
 1. Nützliche Resources
