@@ -72,3 +72,9 @@ int main() {
 ## 9. define & typedef
 
 ## 10. structs
+
+## 11. pointer
+
+## 12. scope rules
+
+## 13. heap mem

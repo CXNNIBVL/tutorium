@@ -27,6 +27,7 @@ int main() {
     // ++ -- erhöht oder subtrahiert 1
     int z = 5; 
     z++; // z = 6, ist das selbe wie z += 1
+    ++z; //
 
     //MODULO    aka Rest Operator
     int x = 13 % 5; // x = 3
@@ -89,7 +90,6 @@ int main() {
 
     //Für shifts auch
     res >>= 2; // Rechts steht immer der shift count (kann auch ne variable sein..obv..)
-
     /*
         0b00000010 (= 2) wir shiften dass jetzt um 2 (>> 2)
         schritt 1:
